@@ -21,7 +21,7 @@ header {
 }
 
 #page-title h1 {
-    font-size: 100px;
+    font-size: 60px;
     line-height: 130px;
     padding-bottom: 72px;
 }
@@ -252,7 +252,7 @@ main {
     color: #111111;
 }
 
-#research :nth-child(1) {
+#research p {
     font-size: 24px;
     line-height: 32px;
     color: #54d6a1;
@@ -371,6 +371,7 @@ main {
     padding-left: 20px;
     font-size: 20px;
     color: #bbb7b7;
+    width: 100%;
 }
 
 #write_message p {
@@ -484,6 +485,7 @@ main {
     display: inline-block;
     position: relative;
     transition: 0.5s;
+    margin-bottom: 20px;
 }
 
 #button:after {
@@ -544,6 +546,27 @@ main {
     cursor: pointer;
     box-shadow: 0 10px 20px -8px rgba(0, 0, 0, .7);
 }
+
 #hover:hover {
     text-shadow: 2px 2px 5px purple;
+}
+
+.img-fluid {
+    width: 100%;
+    height: auto;
+}
+
+#contact p {
+    padding-top: 197px;
+    text-align: center;
+    font-size: 24px;
+    line-height: 72px;
+    color: #c04ae2
+}
+
+#contact h3 {
+    font-size: 55px;
+    line-height: 90px;
+    color: #111111;
+    padding-bottom: 116px;
 }
